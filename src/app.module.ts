@@ -32,8 +32,8 @@ dns.setServers(['8.8.8.8', '8.8.4.4']);
 
 })
 export class AppModule {
-  constructor(private readonly configService: ConfigService) {
-    console.log('MONGODB desde ConfigService:', this.configService.get('MONGODB'));
-    console.log('PORT desde ConfigService:', this.configService.get('PORT'));
-  }
+  // constructor(private readonly configService: ConfigService) {
+  //   console.log('MONGODB desde ConfigService:', this.configService.get('MONGODB'));
+  //   console.log('PORT desde ConfigService:', this.configService.get('PORT'));
+  // }
 }
